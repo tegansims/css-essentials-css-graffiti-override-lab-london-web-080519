@@ -1,1 +1,22 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}
+div#wall #tag-2 {
+  display: none;
+}
+div#wall #tag-3[class="slick wicked"] {
+  display: none;
+}
+
+#wall .parent #tag-4 {
+  display: none;
+}
+
+div#wall .parent:only-child #tag-5.slick {
+  display: none;
+}
+
+div#wall div.parent div:last-child div#tag-6 {
+  display:none;
+}
